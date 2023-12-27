@@ -8,17 +8,21 @@ An extensive document explaining all the details of this project and how it was 
 
 ## Key Points
 * Extract data from the Twitter API
+
 Data was retrieved using a Python tool, Tweepy, the results then cleaned and stored in 2 JSON schemas. 1 for the tweet performance and another for the geographic reach. 
 
 * KPIs
+
 Account performance is measured through the following indicators: Impressions (Views), Likes, Quotes, Replies and Retweets. Selecting in one location on the dashboard modifies the time profile and tweet performance.
 
 ![KPI Selection](Images/KPI%20Selection.png)
 
 * Time Profile
+
 The time profile represents an hourly interactivity per KPI for each tweet or as a collective. The aim being this would be able to influence when a good time to release would be based on the viewers of the account to maximise reach. For example, you can see what hour in the day the tweet is most retweeted. This visualisation improved the longer the data is being collected from the API, the images only show a snapshot and gaps exist in the time profile.
 
 * Heatmap Visualisation
+
 After cleansing the data and removing erroneous locations the count of likes is represented through a heatmap providing the reach of a twitter account. Each tweet can then be visualised individually or as a collective for account performance.
 
 ## Images 
